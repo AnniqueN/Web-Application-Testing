@@ -1,0 +1,46 @@
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: content-box;
+}
+
+body {
+  background: url(https://www.yourworldwithin.com/wp-content/uploads/2015/03/baseball-for-life.jpg);
+  background-attachment: scroll;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+p.italic {
+  font-style: italic;
+  font-size: 0.875em; 
+}
+body {
+  color:whitesmoke;
+}
+.dashboard {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 5.7rem;
+}
+
+.display {
+  margin-top: 10%;
+}
+
+button {
+  background: purple;
+  border-radius: 50%;
+  padding: 1.5rem;
+  color: yellow;
+  border: none;
+  transition: all ease 0.5s;
+  margin-top: 8%;
+}
+
+button:hover {
+  cursor: pointer;
+  background:orange;
+  opacity: 0.5;
+}
