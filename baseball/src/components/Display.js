@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Display(props) {
+function Display(props) {
   return (
     <div className="display">
       <p>Balls : {props.balls}</p>
@@ -10,3 +10,5 @@ export default function Display(props) {
     </div>
   );
 }
+
+export default Display;

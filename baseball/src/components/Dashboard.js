@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Display from "./Display";
 
-export default function Dashboard() {
+function Dashboard() {
   const [balls, setBalls] = useState(0);
   const [strikes, setStrikes] = useState(0);
   const [fouls, setFouls] = useState (0)
@@ -63,3 +63,5 @@ export default function Dashboard() {
     </div>
   );
 }
+
+export default Dashboard;
